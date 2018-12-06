@@ -2,7 +2,8 @@
 
 
 @section('content')
-<h1>Home page:</h1>
+{{-- use $pak variable --}}
+<h1>Home page{{$pak}}:</h1>
 <ul>
     <hr>
 @foreach($tasks as $task)

@@ -23,7 +23,9 @@ Route::get('/', function () {
 		   ];
  return view('home',[
 
- 	'tasks'=>$tasks
+ 	'tasks'=>$tasks,
+ 	// pak is a variable
+ 	'pak'=>'pakistan'
 
 
                      ]);
