@@ -12,7 +12,21 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+	$tasks = [
+
+         'Karachi',
+		 'Lahore',
+		 'Islamabad',
+		 'Multan',
+		 'Bhawlpur',
+		 'Khanpur'
+		   ];
+ return view('home',[
+
+ 	'tasks'=>$tasks
+
+
+                     ]);
 });
 
 Route::get('/contact', function () {

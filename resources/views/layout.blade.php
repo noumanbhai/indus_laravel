@@ -8,8 +8,7 @@
     <style>
  
         ul>li{
-            border-style: dotted;
-            border: 5px ;
+            border:5px dotted ;
             border-width: 10px;
             margin-right: 10px;
             border-height: 5px;
