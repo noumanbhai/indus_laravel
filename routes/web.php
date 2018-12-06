@@ -12,18 +12,26 @@
 */
 
 Route::get('/', function () {
-	$tasks = [
+	return view('home')->with([
+		'pak'=>'pakistan',
+		'tasks'=>['some tasks']
 
-         'Karachi',
-		 'Lahore',
-		 'Islamabad',
-		 'Multan',
-		 'Bhawlpur',
-		 'Khanpur'
-		   ];
-		   return view ('home')->withTasks($tasks)->withPak('Pakistan');
+
+
+	    ]);
+	// $tasks = [
+
+ //         'Karachi',
+	// 	 'Lahore',
+	// 	 'Islamabad',
+	// 	 'Multan',
+	// 	 'Bhawlpur',
+	// 	 'Khanpur'
+	// 	   ];
+	// 	   return view ('home')->withTasks($tasks)->withPak('Pakistan');
 
 // it is same woek in down side;
+
  // return view('home',[
 
  	// 'tasks'=>$tasks,
