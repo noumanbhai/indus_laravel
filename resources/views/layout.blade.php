@@ -5,10 +5,23 @@
     <title>Home</title>
 </head>
 <body>
+    <style>
+ 
+        ul>li{
+            border-style: dotted;
+            border: 5px ;
+            border-width: 10px;
+            margin-right: 10px;
+            border-height: 5px;
+            display: inline;
+        }
+    </style>
 
-    @yield('content')    
     
     <ul>
+        <li>
+            <a href="/">Home</a>       
+        </li>
         <li>
             <a href="/contact">Contact</a>       
         </li>
@@ -16,6 +29,7 @@
             <a href="/aboute">Aboute</a>       
         </li>
     </ul>
+    @yield('content')    
 
     
 </body>
