@@ -8,7 +8,7 @@
     <hr>
 @foreach($tasks as $task)
 <hr>
-<li>{{$task}}</li>
+{{$task}}
 @endforeach
 
 </ul>

@@ -21,14 +21,17 @@ Route::get('/', function () {
 		 'Bhawlpur',
 		 'Khanpur'
 		   ];
- return view('home',[
+		   return view ('home')->withTasks($tasks)->withPak('Pakistan');
 
- 	'tasks'=>$tasks,
+// it is same woek in down side;
+ // return view('home',[
+
+ 	// 'tasks'=>$tasks,
  	// runtime title pass http://indus_laravel.test/?title=pakistan
- 	'pak'=> request('title')
+ 	// 'pak'=> request('title')
 
 
-                     ]);
+                     // ]);
 });
 
 Route::get('/contact', function () {
