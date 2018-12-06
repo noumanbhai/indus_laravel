@@ -10,41 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route ::get('/','PagesController@home');
+Route ::get('aboute','PagesController@aboute');
+Route ::get('/contact','PagesController@contact');
 
-Route::get('/', function () {
-	return view('home')->with([
-		'pak'=>'pakistan',
-		'tasks'=>['some tasks']
-
-
-
-	    ]);
-	// $tasks = [
-
- //         'Karachi',
-	// 	 'Lahore',
-	// 	 'Islamabad',
-	// 	 'Multan',
-	// 	 'Bhawlpur',
-	// 	 'Khanpur'
-	// 	   ];
-	// 	   return view ('home')->withTasks($tasks)->withPak('Pakistan');
-
-// it is same woek in down side;
-
- // return view('home',[
-
- 	// 'tasks'=>$tasks,
- 	// runtime title pass http://indus_laravel.test/?title=pakistan
- 	// 'pak'=> request('title')
-
-
-                     // ]);
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-Route::get('/aboute', function () {
-    return view('aboute');
-});

@@ -6,9 +6,9 @@
 <h1>Home page{{$pak}}:</h1>
 
 
-@foreach($tasks as $task)
+{{-- @foreach($tasks as $task)
 {{$task}}
-@endforeach
+@endforeach --}}
 
 
 @endsection
