@@ -7,7 +7,15 @@
 <body>
 
     <h1>Home Page!</h1>
-    <a href="/contact">Contact page</a>Click to contact page
+    
+    <ul>
+        <li>
+            <a href="/contact">Contact</a>       
+        </li>
+        <li>
+            <a href="/aboute">Aboute</a>       
+        </li>
+    </ul>
     
 </body>
 </html>
