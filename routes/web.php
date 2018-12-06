@@ -24,8 +24,8 @@ Route::get('/', function () {
  return view('home',[
 
  	'tasks'=>$tasks,
- 	// pak is a variable
- 	'pak'=>'pakistan'
+ 	// runtime title pass http://indus_laravel.test/?title=pakistan
+ 	'pak'=> request('title')
 
 
                      ]);
