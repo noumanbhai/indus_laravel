@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>basic laracast</title>
+    <title>Home</title>
 </head>
 <body>
 
-    <h1>I Love Pakistan</h1>
+    <h1>Home Page!</h1>
+    <a href="/contact">Contact page</a>Click to contact page
     
 </body>
 </html>
